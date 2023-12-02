@@ -33,10 +33,34 @@
   }
 }
 
+/* .nav {
+  position: absolute;
+  background-color: #646cff;
+  color: white;
+  padding: 5px 0;
+  margin-bottom: 5px;
+  width: 100%;
+} */
+
 .card {
-  padding: 2em;
+  padding: 10em;
+  border: 1px solid black;
 }
 
 .read-the-docs {
   color: #888;
+}
+
+.companies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+
+  align-content: center;
+}
+
+.tech {
+  display: flex;
+  flex-direction: row;
 }
